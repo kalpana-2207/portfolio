@@ -1,11 +1,7 @@
-/* ===========================
-   Google Fonts
-=========================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@700&display=swap');
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=DM+Serif+Display&display=swap');
 
-/* ===========================
-   Reset
-=========================== */
+/* Reset */
 
 *{
 margin:0;
@@ -13,45 +9,31 @@ padding:0;
 box-sizing:border-box;
 }
 
-html{
-scroll-behavior:smooth;
-}
-
 body{
 
-font-family:'Poppins',sans-serif;
+font-family:'Manrope',sans-serif;
 
-background:#F7F5F2;
+background:#FCFBF8;
 
 color:#222;
 
 }
 
-/* ===========================
-Navigation
-=========================== */
-
 header{
-
-width:100%;
-
-padding:25px 8%;
 
 position:fixed;
 
-top:0;
+width:100%;
 
-background:rgba(247,245,242,.95);
+background:white;
 
-backdrop-filter:blur(10px);
+padding:25px 8%;
 
-z-index:1000;
-
-border-bottom:1px solid #ECECEC;
+border-bottom:1px solid #ececec;
 
 }
 
-nav{
+.navbar{
 
 display:flex;
 
@@ -63,272 +45,94 @@ align-items:center;
 
 .logo{
 
-font-family:'Caveat',cursive;
+font-family:'DM Serif Display',serif;
 
-font-size:42px;
-
-color:#3B82F6;
+font-size:28px;
 
 }
 
-nav ul{
+.nav-links{
 
 display:flex;
 
 list-style:none;
 
-gap:40px;
+gap:30px;
 
 }
 
-nav ul li a{
+.nav-links a{
 
 text-decoration:none;
 
 color:#555;
 
-font-size:17px;
-
-transition:.3s;
-
 }
-
-nav ul li a:hover{
-
-color:#3B82F6;
-
-}
-
-/* ===========================
-Hero Section
-=========================== */
 
 .hero{
 
-min-height:100vh;
-
-padding:120px 8%;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-}
-
-.hero-text{
-
-width:55%;
-
-}
-
-.intro{
-
-font-family:'Caveat';
-
-font-size:35px;
-
-color:#3B82F6;
-
-margin-bottom:10px;
-
-}
-
-.hero h1{
-
-font-size:72px;
-
-font-weight:700;
-
-margin-bottom:15px;
-
-color:#111;
-
-}
-
-.hero h3{
-
-font-weight:500;
-
-color:#555;
-
-margin-bottom:25px;
-
-}
-
-.hero p{
-
-line-height:32px;
-
-color:#666;
-
-font-size:18px;
-
-}
-
-/* ===========================
-Buttons
-=========================== */
-
-.buttons{
-
-margin-top:40px;
-
-display:flex;
-
-gap:20px;
-
-}
-
-.btn{
-
-background:#3B82F6;
-
-color:white;
-
-padding:15px 35px;
-
-border-radius:50px;
-
-text-decoration:none;
-
-font-weight:500;
-
-transition:.3s;
-
-}
-
-.btn:hover{
-
-transform:translateY(-3px);
-
-box-shadow:0 15px 25px rgba(59,130,246,.25);
-
-}
-
-.btn-outline{
-
-border:2px solid #3B82F6;
-
-padding:15px 35px;
-
-border-radius:50px;
-
-text-decoration:none;
-
-color:#3B82F6;
-
-transition:.3s;
-
-}
-
-.btn-outline:hover{
-
-background:#3B82F6;
-
-color:white;
-
-}
-
-/* ===========================
-Hero Card
-=========================== */
-
-.hero-card{
-
-width:350px;
-
-height:430px;
-
-background:white;
-
-border-radius:30px;
-
-box-shadow:0 20px 40px rgba(0,0,0,.08);
+height:100vh;
 
 display:flex;
 
 justify-content:center;
 
 align-items:center;
-
-transform:rotate(-4deg);
-
-transition:.4s;
-
-}
-
-.hero-card:hover{
-
-transform:rotate(0deg);
-
-}
-
-.initials{
-
-width:180px;
-
-height:180px;
-
-background:#3B82F6;
-
-border-radius:50%;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-font-size:72px;
-
-color:white;
-
-font-weight:bold;
-
-font-family:'Caveat';
-
-}
-
-/* ===========================
-Responsive
-=========================== */
-
-@media(max-width:900px){
-
-.hero{
-
-flex-direction:column;
 
 text-align:center;
 
-padding-top:150px;
-
-}
-
-.hero-text{
-
-width:100%;
-
-}
-
-.hero-card{
-
-margin-top:60px;
-
-}
-
-nav ul{
-
-display:none;
+padding:0 20px;
 
 }
 
 .hero h1{
 
-font-size:50px;
+font-family:'DM Serif Display';
+
+font-size:72px;
+
+margin:25px 0;
+
+line-height:80px;
 
 }
+
+.subtitle{
+
+letter-spacing:3px;
+
+font-size:14px;
+
+color:#4F7CF7;
+
+font-weight:700;
+
+}
+
+.description{
+
+max-width:700px;
+
+margin:auto;
+
+font-size:20px;
+
+color:#666;
+
+}
+
+.explore{
+
+display:inline-block;
+
+margin-top:40px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+color:#4F7CF7;
+
+font-size:18px;
 
 }
