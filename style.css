@@ -296,7 +296,142 @@ nav ul li{
 
 .title{
 
-    font-size:32px;
+    font-size:32px; /* HERO */
+
+.hero{
+
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#0f172a,#2563eb,#38bdf8);
+    color:white;
+}
+
+.hero-content{
+
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+
+}
+
+.hero-left{
+
+    flex:1;
+
+}
+
+.welcome{
+
+    font-size:24px;
+    margin-bottom:20px;
+
+}
+
+.hero-left h1{
+
+    font-size:72px;
+
+}
+
+.hero-left h1 span{
+
+    color:#38bdf8;
+
+}
+
+.hero-left h2{
+
+    font-size:34px;
+    margin:20px 0;
+    color:#cbd5e1;
+    height:45px;
+
+}
+
+.hero-description{
+
+    max-width:600px;
+    line-height:1.8;
+    font-size:18px;
+    margin-top:20px;
+
+}
+
+.hero-buttons{
+
+    margin-top:40px;
+
+}
+
+.primary-btn,
+.secondary-btn{
+
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    margin-right:20px;
+    font-weight:600;
+
+}
+
+.primary-btn{
+
+    background:white;
+    color:#2563eb;
+
+}
+
+.secondary-btn{
+
+    border:2px solid white;
+    color:white;
+
+}
+
+.social-icons{
+
+    margin-top:40px;
+
+}
+
+.social-icons a{
+
+    font-size:28px;
+    color:white;
+    margin-right:25px;
+    transition:.3s;
+
+}
+
+.social-icons a:hover{
+
+    color:#38bdf8;
+
+}
+
+.hero-right{
+
+    flex:1;
+    display:flex;
+    justify-content:center;
+
+}
+
+.hero-right img{
+
+    width:380px;
+    height:380px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid white;
+    box-shadow:0 20px 40px rgba(0,0,0,.3);
+
+}
+    
 
 }
 
