@@ -1,95 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Kalpana T | Portfolio</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
-
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
-<div class="container">
+<!-- ================= NAVIGATION ================= -->
 
-    <!-- LEFT SIDE -->
+<header>
 
-    <div class="left">
-
-        <h1>Kalpana T</h1>
-
-        <p class="role">
-
-            Electronics & Communication Engineering Student
-
-        </p>
-
-        <div class="line"></div>
-
-        <h2>About Me</h2>
-
-        <p class="about">
-
-            Passionate about Embedded Systems, IoT,
-            PCB Design and Antenna Design.
-            I enjoy building innovative engineering
-            solutions that solve real-world problems.
-
-        </p>
-
+    <div class="logo">
+        Kalpana<span>.</span>
     </div>
 
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
 
 
-    <!-- RIGHT SIDE -->
+<!-- ================= HERO ================= -->
 
-    <div class="right">
+<section id="home" class="hero">
 
-        <div class="profile-card">
+<div class="hero-text">
 
-            <div class="circle">
+<h3>Hello, I'm</h3>
 
-                KT
+<h1>Kalpana T</h1>
 
-            </div>
+<h2>Electronics & Communication Engineering Student</h2>
 
-            <h3>Engineer</h3>
+<p>
+Passionate about Embedded Systems, IoT, Hardware Design,
+PCB Design and Electronics Innovation.
+</p>
 
-            <p>
+<div class="buttons">
 
-                Embedded Systems
+<a href="assets/resume.pdf" download class="btn">
+Download Resume
+</a>
 
-            </p>
-
-            <p>
-
-                IoT
-
-            </p>
-
-            <p>
-
-                PCB Design
-
-            </p>
-
-        </div>
-
-    </div>
+<a href="#contact" class="btn2">
+Contact Me
+</a>
 
 </div>
 
-</body>
+</div>
 
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<p>
+Dedicated Electronics and Communication Engineering student with
+a strong interest in Embedded Systems, IoT and Hardware Design.
+Passionate about solving real-world problems through innovative
+electronic solutions and continuously learning new technologies.
+</p>
+
+</section>
+
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section>
+
+<h2 class="title">Education</h2>
+
+<div class="card">
+
+<h3>B.E Electronics and Communication Engineering</h3>
+
+<p>
+Coimbatore Institute of Engineering and Technology
+</p>
+
+<p>2023 - 2027</p>
+
+<h3>CGPA : 8.75</h3>
+
+</div>
+
+</section>
+
+
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills">
+
+<h2 class="title">Technical Skills</h2>
+
+<div class="skill-container">
+
+<div class="skill-card">
+<i class="fa-solid fa-code"></i>
+<h3>Programming</h3>
+<p>C<br>Embedded C<br>Python<br>Java</p>
+</div>
+
+<div class="skill-card">
+<i class="fa-solid fa-microchip"></i>
+<h3>Embedded</h3>
+<p>ESP32<br>STM32<br>Arduino</p>
+</div>
+
+<div class="skill-card">
+<i class="fa-solid fa-wifi"></i>
+<h3>IoT</h3>
+<p>Sensor Integration<br>Cloud Monitoring<br>Wireless Communication</p>
+</div>
+
+<div class="skill-card">
+<i class="fa-solid fa-laptop-code"></i>
+<h3>Software</h3>
+<p>Keil<br>Proteus<br>LTspice<br>KiCad<br>GNU Octave</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="project">
+
+<h3>Classroom Automation System</h3>
+
+<p>
+Developed an ESP32 based IoT classroom automation system
+for automatic control of lights and fans using sensors.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>UWB Antenna for Breast Cancer Detection</h3>
+
+<p>
+Designed and simulated a UWB antenna using GNU Octave
+for microwave breast cancer detection.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Digital Alarm Clock</h3>
+
+<p>
+Developed a Digital Alarm Clock using Arduino,
+RTC Module, LCD Display and Buzzer.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= INTERNSHIP ================= -->
+
+<section>
+
+<h2 class="title">Internship</h2>
+
+<div class="card">
+
+<h3>Embedded Systems Intern</h3>
+
+<p>Manfree Technologies</p>
+
+<ul>
+
+<li>Embedded Programming</li>
+
+<li>Hardware Design</li>
+
+<li>Sensor Interfacing</li>
+
+<li>Product Requirement Analysis</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section>
+
+<h2 class="title">Certifications</h2>
+
+<ul class="certificate">
+
+<li>Embedded System Design using C</li>
+
+<li>Verilog HDL Hands-On</li>
+
+<li>VLSI SoC Design using Verilog</li>
+
+<li>Semiconductor – VLSI & Embedded Systems</li>
+
+</ul>
+
+</section>
+
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<p>
+
+<i class="fa-solid fa-envelope"></i>
+
+kalpanathangamuth@gmail.com
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-phone"></i>
+
++91 6381440583
+
+</p>
+
+<p>
+
+<i class="fa-brands fa-linkedin"></i>
+
+linkedin.com/in/kalpana2207
+
+</p>
+
+<p>
+
+<i class="fa-brands fa-github"></i>
+
+github.com/kalpana-2207
+
+</p>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 Kalpana T | Designed with ❤️
+
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
 </html>
